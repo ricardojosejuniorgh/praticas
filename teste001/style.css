@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+:root {
+
+    --cor01: rgb(2, 0, 135);
+    --cor02: rgb(53, 61, 153);
+    --cor03: rgb(199, 156, 16);
+    --cor04: rgb(204, 182, 111);
+    --cor05: rgb(198, 201, 200);
+
+    --font01: 'Fredericka the Great', cursive;
+
+}
+*{
+    margin: 0px;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    background-color: var(--cor02);
+
+}
+header > img {
+    height: 200px;
+    width: 100%;
+
+}
+header h1 {
+    position: absolute;
+    left: 18%;
+    top: 85%;
+    width: 90%;
+}
+
