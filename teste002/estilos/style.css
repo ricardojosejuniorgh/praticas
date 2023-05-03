@@ -73,7 +73,22 @@ nav a:hover {
     display: block;
     margin: auto;
     padding: 10px 0px;
+}
 
+.nav-video {
+    position: relative;
+    background-color: var(--cor06);
+    height: 600px;
+    box-shadow: none;
+    margin: 10px;
+    padding: 10px;
+}
+.video-nav {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
 }
 
 main {
