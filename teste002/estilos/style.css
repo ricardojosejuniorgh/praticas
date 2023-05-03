@@ -34,7 +34,6 @@ header {
     font-family: var(--fonte02);
     text-align: center;
     color: var(--cor01);
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
 }
 header h1 {
     padding: 30px 10px 20px 10px;
@@ -47,6 +46,7 @@ header > p {
 nav {
     background-color: var(--cor06);
     padding-bottom: 2px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.400);
 }
 nav a {
     display: inline-block;
@@ -64,10 +64,12 @@ nav a:hover {
     color: var(--cor05);
 }
 
-.image1 {
+.image {
     width: 100%;
     margin: auto;
+    padding: 10px 0px;
 }
+
 
 main {
     background-color: var(--cor01);
@@ -91,4 +93,5 @@ main p {
     font-family: var(--fonte03);
     line-height: 1.5em;
     text-indent: 30px;
+    text-align: justify;
 }
