@@ -78,7 +78,7 @@ nav a:hover {
 .nav-video {
     position: relative;
     background-color: var(--cor06);
-    height: 600px;
+    height: 55vh;
     box-shadow: none;
     margin: 10px;
     padding: 10px;
@@ -86,8 +86,8 @@ nav a:hover {
 .video-nav {
     position: absolute;
     top: 10%;
-    left: 5%;
-    width: 90%;
+    left: 10%;
+    width: 80%;
     height: 80%;
 }
 
