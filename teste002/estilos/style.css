@@ -78,25 +78,25 @@ nav a:hover {
 .nav-video {
     position: relative;
     background-color: var(--cor06);
-    height: 55vh;
+    height: 60vh;
+    width: 100%;
     box-shadow: none;
-    margin: 10px;
-    padding: 10px;
 }
 .video-nav {
     position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 main {
     background-color: var(--cor01);
     max-width: 1000px;
     margin: auto;
-    padding: 20px;
-
+}
+h2 {
+    padding: 20px 20px 0px 20px;
 }
 .main-h2-1 {
     color: var(--cor06);
@@ -114,4 +114,5 @@ main p {
     line-height: 1.5em;
     text-indent: 30px;
     text-align: justify;
+    padding: 20px 20px 0px 20px;
 }
