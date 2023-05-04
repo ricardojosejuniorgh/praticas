@@ -78,8 +78,7 @@ nav a:hover {
 .nav-video {
     position: relative;
     background-color: var(--cor06);
-    height: 60vh;
-    width: 100%;
+    padding-bottom: 60%;
     box-shadow: none;
 }
 .video-nav {
