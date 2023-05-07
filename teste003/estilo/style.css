@@ -16,6 +16,7 @@
 body {
     min-height: 100vh;
 }
+
 header {
     background-color: black;
     text-align: center;
@@ -35,21 +36,22 @@ header a {
 }
 
 section {
-    padding: 10vh 0px 10vh 30px;
-    width: auto;
-    margin-right: 10px;
-    
-}
-section p {
-    font: normal lighter 5vh var(--font-texto);
+    height: 50vh;
+    padding: 10vh 0px 10vh 0px;
+    padding-left: 30px;
+    font-size: 4vh;
+    font-family: var(--font-texto);
 }
 
 .image1 {
     background-color: gray;
-    
+}
+.img1 {
+    background-image: url('imagens/imagem-flor.jpg');
 }
 .image1 p {
-    background-color: rgba(0, 0, 0, 0.400);
     display: inline-block;
-    padding: 0px 5px;
+    background-color: rgba(0, 0, 0, 0.300);
+    padding: 5px;
 }
+
