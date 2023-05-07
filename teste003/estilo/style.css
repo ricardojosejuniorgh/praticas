@@ -32,8 +32,9 @@ header a {
 }
 
 section {
-    padding: 10vh 20px;
-    margin: auto;
+    padding: 10vh 0px 10vh 30px;
+    width: auto;
+    margin-right: 10px;
     
 }
 section p {
