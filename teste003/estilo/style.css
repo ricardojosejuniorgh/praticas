@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+
+    --font-titulo: 'Passion One', cursive;
+    --font-texto: 'Sriracha', cursive;
+    --fonte-final: Verdana, Geneva, Tahoma, sans-serif;
+}   
+
+header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px 10px;
+}
+header h1 {
+    font: normal bold 10vh var(--font-titulo);
+    font-variant: small-caps;
+}
+header p {
+    font-family: var(--fonte-final);
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 10vh 20px;
+    margin: auto;
+    
+}
+section p {
+    font: normal lighter 5vh var(--font-texto);
+}
+
+.image1 {
+    background-color: gray;
+    
+}
+.image1 p {
+    background-color: rgba(0, 0, 0, 0.400);
+    display: inline-block;
+    padding: 0px 5px;
+}
