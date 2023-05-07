@@ -13,6 +13,9 @@
     --fonte-final: Verdana, Geneva, Tahoma, sans-serif;
 }   
 
+body {
+    min-height: 100vh;
+}
 header {
     background-color: black;
     text-align: center;
