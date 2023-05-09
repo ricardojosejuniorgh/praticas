@@ -47,6 +47,9 @@ section {
     padding-left: 30px;
 }
 
+.image {
+    background-color: gray;
+}
 .image p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.300);
