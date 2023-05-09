@@ -11,10 +11,10 @@
     --font-titulo: 'Passion One', cursive;
     --font-texto: 'Sriracha', cursive;
     --fonte-final: Verdana, Geneva, Tahoma, sans-serif;
-}   
+}
+
 html, body {
-    min-height: 100vh;
-    background-color: white;
+    min-width: 100vh;
 }
 
 header {
@@ -42,6 +42,32 @@ header a:hover {
 
 section {
     padding: 10vh 0px;
-    font: normal 1.5em lighter var(--font-texto);
+    font: normal lighter 3.5vh var(--font-texto);
+    line-height: 2em;
+    padding-left: 30px;
 }
 
+.image p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.400);
+    color: white;
+    padding: 5px;
+    background-attachment: fixed;
+    text-shadow: 2px 2px black;
+}
+
+#img01 {
+    background: gray url(../imagens/imagem-flor.jpg) center center fixed;
+
+}
+
+#img02 {
+    background: gray url(../imagens/imagem-pagina.jpg) right bottom fixed;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
