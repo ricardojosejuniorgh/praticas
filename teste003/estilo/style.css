@@ -13,12 +13,16 @@
     --fonte-final: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 header {
     background-color: black;
     text-align: center;
     color: white;
 }
-header h1 {
+header > h1 {
     display: inline-block;
     font: normal bold 10vh var(--font-titulo);
     font-variant: small-caps;
@@ -37,8 +41,8 @@ header a:hover {
 }
 
 section {
-    padding: 10vh 0px;
-    font: normal lighter 3.5vh var(--font-texto);
+    padding: 10vh 0vh;
+    font: normal lighter 4vh var(--font-texto);
     line-height: 2em;
     padding-left: 30px;
 }
@@ -48,8 +52,7 @@ section {
     background-color: rgba(0, 0, 0, 0.300);
     color: white;
     padding: 5px;
-    background-attachment: fixed;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px 0px black;
 }
 
 #img01 {
