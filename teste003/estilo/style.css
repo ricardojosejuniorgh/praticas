@@ -57,8 +57,8 @@ section {
 #img01 {
     background-color: gray;
     background-image: url(../imagens/imagem-flor.jpg);
-    background-repeat: no-repeat;
     background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
