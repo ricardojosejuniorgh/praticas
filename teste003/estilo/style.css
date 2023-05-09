@@ -60,7 +60,7 @@ section {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #img02 {
