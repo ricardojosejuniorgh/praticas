@@ -56,7 +56,7 @@ section {
 
 #img01 {
     background-color: gray;
-    background-image: url(../imagens/imagem-flor.jpg);
+    background-image: url('../imagens/imagem-flor.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
