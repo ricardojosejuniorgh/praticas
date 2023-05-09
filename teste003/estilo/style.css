@@ -47,7 +47,7 @@ section {
 
 .image p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.400);
+    background-color: rgba(0, 0, 0, 0.300);
     color: white;
     padding: 5px;
     background-attachment: fixed;
@@ -55,13 +55,15 @@ section {
 }
 
 #img01 {
-    background: gray url(../imagens/imagem-flor.jpg) center center no-repeat fixed;
+    background: gray url(../imagens/imagem-flor.jpg) center center fixed;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #img02 {
-    background: gray url(../imagens/imagem-pagina.jpg) right bottom no-repeat fixed;
+    background: gray url(../imagens/imagem-pagina.jpg) right bottom fixed;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 footer {
