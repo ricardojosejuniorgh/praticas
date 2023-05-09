@@ -56,11 +56,12 @@ section {
 
 #img01 {
     background: gray url(../imagens/imagem-flor.jpg) center center no-repeat fixed;
-
+    background-size: cover;
 }
 
 #img02 {
     background: gray url(../imagens/imagem-pagina.jpg) right bottom no-repeat fixed;
+    background-size: cover;
 }
 
 footer {
