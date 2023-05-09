@@ -12,46 +12,36 @@
     --font-texto: 'Sriracha', cursive;
     --fonte-final: Verdana, Geneva, Tahoma, sans-serif;
 }   
-
-body {
+html, body {
     min-height: 100vh;
+    background-color: white;
 }
 
 header {
     background-color: black;
     text-align: center;
     color: white;
-    padding: 50px 10px;
 }
 header h1 {
+    display: inline-block;
     font: normal bold 10vh var(--font-titulo);
     font-variant: small-caps;
+    padding-top: 50px;
 }
 header p {
     font-family: var(--fonte-final);
+    padding-bottom: 50px;
 }
 header a {
     text-decoration: none;
     color: white;
 }
+header a:hover {
+    text-decoration: underline;
+}
 
 section {
-    height: 50vh;
-    padding: 10vh 0px 10vh 0px;
-    padding-left: 30px;
-    font-size: 4vh;
-    font-family: var(--font-texto);
-}
-
-.image1 {
-    background-color: gray;
-}
-.img1 {
-    background-image: url('imagens/imagem-flor.jpg');
-}
-.image1 p {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.300);
-    padding: 5px;
+    padding: 10vh 0px;
+    font: normal 1.5em lighter var(--font-texto);
 }
 
