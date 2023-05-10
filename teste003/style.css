@@ -7,6 +7,7 @@
 
 body {
     background-color: rgb(167, 166, 166);
+
 }
 
 header{
@@ -23,9 +24,9 @@ header h1 {
 }
 .frente {
     display: inline-block;
-    font: normal bold 3vh arial;
+    font: normal bold 3vw arial;
     color: white;
-    padding: 10vh 0vh 10vh 30px;
+    padding: 10vh 0vh 10vw 30px;
 
 }
 .frente p {

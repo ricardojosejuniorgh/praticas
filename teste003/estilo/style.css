@@ -13,10 +13,6 @@
     --fonte-final: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html, body {
-    min-height: 100vh;
-}
-
 header {
     background-color: black;
     text-align: center;
@@ -24,7 +20,7 @@ header {
 }
 header > h1 {
     display: inline-block;
-    font: normal bold 10vh var(--font-titulo);
+    font: normal bold 10vw var(--font-titulo);
     font-variant: small-caps;
     padding-top: 50px;
 }
@@ -42,7 +38,7 @@ header a:hover {
 
 section {
     padding: 10vh 0vh;
-    font: normal lighter 4vh var(--font-texto);
+    font: normal lighter 4vw var(--font-texto);
     line-height: 2em;
     padding-left: 30px;
 }
