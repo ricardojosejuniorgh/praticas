@@ -13,7 +13,7 @@
     padding: 0px;
 }
 header {
-    margin: -20px;
+    margin: -20px -20px 0px -20px;
     padding: 20px 20px 20px 50px;
     background-color: var(--cor03);
     font-variant: small-caps;
@@ -29,6 +29,14 @@ header h2 {
 body {
     padding: 20px;
     background-image: url(../imagens/fundo-vertical.jpg);
-    background-size: 100% 100%;
+    background-size: 100%, 100%;
+}
+
+img {
+    display: inline;
+    width: 50vw;
+    margin-top: 40px;
+    box-shadow: 3px 3px 7px hsla(209, 18%, 34%, 0.400);
+    border-radius: 5px;
 }
 
