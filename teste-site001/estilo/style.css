@@ -6,6 +6,7 @@
     --cor03: #506273;
     --cor04: #485867;
     --cor05: #36414D;
+    --cor06: #2b353f;
 }
 
 * {
@@ -19,13 +20,27 @@ header {
     font-variant: small-caps;
     color: #ffffff;
 }
-header h1{
+header p {
+    text-shadow: 4px 4px 1px var(--cor06);
+}
+header a {
+    display: inline-block;
+}
+.p-nome {
     font-size: 5vw;
 }
-header h2 {
-    font-size: 2vw;
-    padding-left: 21px;
+.p-profissao {
+    font-size: 2.5vw;
+    padding-left: 20px;
 }
+
+#div-nome {
+    display: inline-block;
+    padding: 20px;
+    background-color: var(--cor04);
+    border-radius: 59%;
+}
+
 body {
     padding: 20px;
     background-image: url(../imagens/fundo-vertical.jpg);
@@ -33,11 +48,10 @@ body {
     background-repeat: no-repeat;
 }
 
-img {
-    display: inline;
+.sec-imagem-principal {
+    padding-top: 30px;
+}
+.sec-imagem-principal img {
     width: 30vw;
-    margin-top: 40px;
-    box-shadow: 3px 3px 7px hsla(209, 18%, 34%, 0.400);
-    border-radius: 5px;
 }
 
