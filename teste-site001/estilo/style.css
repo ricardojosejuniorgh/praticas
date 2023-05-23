@@ -29,7 +29,8 @@ header h2 {
 body {
     padding: 20px;
     background-image: url(../imagens/fundo-vertical.jpg);
-    background-size: 100%, 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 img {
