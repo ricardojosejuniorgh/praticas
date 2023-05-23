@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 :root {
+    --cor00: #c8d2dd;
     --cor01: #8b9eb1;
     --cor02: #7D99B3;
     --cor03: #506273;
@@ -43,15 +44,17 @@ header a {
 
 body {
     padding: 20px;
-    background-image: url(../imagens/fundo-vertical.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-color: var(--cor00);
 }
 
 .sec-imagem-principal {
-    padding-top: 30px;
+    padding: 5vw 0px;
+    padding-left: 30px;
+    
 }
 .sec-imagem-principal img {
     width: 30vw;
+    border-top: 3px solid var(--cor03);
+    border-bottom: 3px solid var(--cor03);
 }
 
