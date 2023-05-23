@@ -13,6 +13,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header {
     margin: -20px -20px 0px -20px;
@@ -47,14 +48,51 @@ body {
     background-color: var(--cor00);
 }
 
-.sec-imagem-principal {
-    padding: 5vw 0px;
-    padding-left: 30px;
-    
+.imagem-principal {
+    display: flex;
 }
-.sec-imagem-principal img {
-    width: 30vw;
+.imagem-principal img {
+    display: inline;
+    width: 35vw;
     border-top: 3px solid var(--cor03);
     border-bottom: 3px solid var(--cor03);
+    box-shadow: 0px 0px 4px var(--cor03);
+    margin: 5vh 0px;
+    margin-left: 30px;
 }
+.sec-info {
+    display: flex;
+}
+
+.pic-resumo {
+    display: flex;
+}
+.imagem-resumo {
+    width: 80px;
+    height: 80px;
+}
+.sec-p-nome {
+    display: block;
+    font-size: 2.5vw;
+}
+.sec-p-profissao {
+    font-size: 3.5vw;
+}
+.sec-p-resumo {
+    font-size: 1.6vw;
+}
+
+.pic-resumo {
+    background-color: #d4dce6;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.pic-resumo p {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+
+
 
