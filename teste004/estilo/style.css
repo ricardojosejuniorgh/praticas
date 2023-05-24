@@ -29,5 +29,45 @@ body {
     transform: translate(-50%, -50%);
 }
 
+iframe {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    width: 407px;
+    height: 239.5px;
+
+    top: 39.2%;
+    left: 49.6%;
+    transform: translate(-50%, -50%);
+}
+
+    /*
+
+    iframe tela notebook
+
+    position: absolute;
+    width: 407px;
+    height: 239.5px;
+
+    top: 39.2%;
+    left: 49.6%;
+    transform: translate(-50%, -50%);
+
+---------------------------------------------
+
+    iframe tela tablet
+
+    position: absolute;
+    width: 317px;
+    height: 521px;
+    top: 49.6%;
+    left: 49.8%;
+    transform: translate(-50%, -50%);
+
+
+    */
+
+
+
 
 
