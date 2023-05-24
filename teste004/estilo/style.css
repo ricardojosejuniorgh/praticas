@@ -8,6 +8,10 @@ html, body {
     width: 100vw;
     height: 100vh;
 }
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
 
 body {
     position: relative;
@@ -23,7 +27,12 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#telefone img {
-    width: 100%;
+iframe {
+    position: relative;
+
+
+    top: 20%;
+    left: 0%;
+    transform: translate(50%, -200%);
 }
 
