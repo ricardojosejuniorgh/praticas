@@ -15,8 +15,6 @@ html, body {
 
 body {
     position: relative;
-    width: 100vw;
-    height: 100vh;
     background: rgb(94, 92, 92) url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
 }
@@ -30,13 +28,11 @@ body {
 }
 
 iframe {
-    width: 100vw;
-    height: 100vh;
     position: absolute;
     width: 407px;
-    height: 239.5px;
+    height: 243.5px;
 
-    top: 39.2%;
+    top: 39.7%;
     left: 49.6%;
     transform: translate(-50%, -50%);
 }
